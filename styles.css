@@ -1,0 +1,139 @@
+body {
+    background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+}
+.container {
+    background-color: whitesmoke;
+   
+    padding: 60px;
+    margin:10px;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+}
+
+.header{
+    
+}
+.logo{
+    position: fixed;
+    top:30px;
+    left: 45px;
+}
+.nav-bar{
+    position: fixed;
+    top:30px;
+    right: 45px;
+}
+
+.nav-bar ul{
+    margin : 0;
+    padding: 0;
+    /* width: 60px; */
+    list-style-type: none;
+    display: flex;
+    color:black;
+    
+}
+
+/* .nav-bar ul .border{
+    border: 1px solid black;
+    color:white !important;
+    background-color: black;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+} */
+
+li:last-child a {
+    color: white;
+    background-color:black;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    padding: 10px;
+    text-align: center;;
+}
+
+li a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  .nav-bar > li:last-child > a { 
+    border-radius: 0 4px 0 0;
+  }
+
+
+.content{
+     max-width: 60%;
+    margin: 0 auto;
+}
+.image img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: block;
+    background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+    padding: 0.5rem;
+  
+}
+ul{
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.skills li {
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius:5px ;
+    margin: 0 0 5px 0;
+    padding: 0.2rem;
+    text-align: center;
+    /*font-size:10px;
+    */font-weight: 900;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+
+.first-section{
+    display: flex;
+    padding: 15px;
+    flex-grow: 1;
+    margin : 0 auto;margin-bottom: 5rem;
+}
+.skills{
+    display: flex;
+}
+
+.first-section  .brief-intro{
+    margin-left : 30px;
+    padding : 20px;
+    position: relative;
+
+}
+.second-section{
+    display: flex;
+    justify-content : center;
+    padding: 12px;
+    align-items: center;
+}
+
+.second-section .career {
+width : 70%;
+padding: 5px;
+}
+
+div h3{
+    margin: 0;
+    margin-left: 25px;
+}
